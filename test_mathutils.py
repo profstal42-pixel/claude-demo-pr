@@ -12,3 +12,8 @@ def test_subtract():
 def test_is_prime():
     assert is_prime(7) is True
     assert is_prime(4) is False
+
+
+def test_is_even():
+    assert is_even(4) is True
+    assert is_even(7) is False
